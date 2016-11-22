@@ -1,0 +1,146 @@
+/* Large desktop */
+@media (max-width: 1200px) {
+	footer .container{
+		width: auto;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.container{
+		width: auto;
+	}
+
+	.evento img{
+		margin-bottom: 100px;
+	}
+
+	.buttons-local{
+	    top: 80%;
+	    left: 50%;
+	    transform:translate(-50%,-50%);
+	}
+
+	footer a{
+		margin-bottom: 10px;
+	}
+
+	footer img{
+		max-width: 100%;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.logo{
+		width: 100%;
+		left: inherit;
+		text-align: center;
+		top: 30px;
+	}
+
+	.logo img{
+		width: 120px;
+	}
+
+	.button{
+		padding: 15px 80px;
+	}
+
+	.buttons-logo{
+		width: 100%;
+		left: 50%;
+		transform: translate(-50%);
+		top: 30px;
+		bottom: 30px;
+		top: inherit;
+	}
+
+	.button-small{
+		padding: 8px 10px;
+		font-size: 10px;
+	}
+
+	.f-72{
+	    font-size: 36px;    
+	    text-transform: uppercase;
+	}
+
+	.f-36{
+	    font-size: 18px;
+	    text-transform: uppercase;
+	}
+
+	.intro h1 span{
+		display: block;
+	}
+
+	.section-info{
+		padding: 50px 0;
+	}
+
+
+	.title-section{
+	    margin-bottom: 50px;
+	}
+
+	.evento .button.gradient{
+		display: block;
+		text-align: center;
+	}
+
+	.evento img{
+		margin-bottom: 50px;
+	}
+
+	.logo-footer{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	footer .button{
+		width: 30%;
+		text-align: center;
+		margin-bottom: 10px;
+		margin-right: 5px;
+		padding: 8px 10px 8px 8px;
+	}
+
+	footer .button:first-child{
+		display: block;
+		width: 100%;
+	}
+
+	.right{
+		width: 100%;
+	}
+
+	.edition{
+		background-attachment: scroll;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 320px) { 
+	.f-72{
+	    font-size: 28px;    
+	    text-transform: uppercase;
+	}
+
+	.f-36{
+	    font-size: 14px;
+	    text-transform: uppercase;
+	}
+
+}
+
+@media (max-height: 420px) { 
+	header{
+		display: none !important;
+	}
+
+	.f-72{
+	    font-size: 24px;    
+	    text-transform: uppercase;
+	}
+}
